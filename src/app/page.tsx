@@ -21,6 +21,15 @@ export default function Home() {
       >
         Ir a About
       </Link>
+      <Link
+        href="/other"
+        className="text-white hover:underline mt-2"
+        style={{
+          viewTransitionName: "other"
+        }}
+      >
+        Ir a other
+      </Link>
       <Image
         className="mt-4 rounded-lg border border-gray-800"
         src="/img-perfil-rubert.webp"
