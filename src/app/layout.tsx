@@ -25,14 +25,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ViewTransitions>
-      <html lang="en">
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <ViewTransitions>
           {children}
-        </body>
-      </html>
-    </ViewTransitions>
+        </ViewTransitions>
+      </body>
+    </html>
   )
 }
